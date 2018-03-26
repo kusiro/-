@@ -6,7 +6,7 @@
     .filter {
         width: 100%; height: 100%;
         position: absolute;
-        background-color: rgba(#000000, 0.6);
+        background-color: rgba(#000000, 0.75);
         z-index: 2;
     }
     img {
@@ -30,35 +30,137 @@
 
 .about-us {
     font-family: 微軟正黑體;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #f5f7fa 0%, #d0d9e7 100%);
     .content {
-        padding-bottom: 3.5em;
-        padding-top: 3em;
-    }
-    h1 {
-        text-align: center;
-        font-size: 48px;
-        letter-spacing: 1px;
-        font-weight: 500;
-    }
-    hr {
-        width: 50px;
-        border: none;
-        border-bottom: solid 2px #333;
-        margin: 0 auto;
-    }
-    p {
-        text-align: justify;
-        letter-spacing: 1.2px;
-        line-height: 1.5em;
-        margin-top: 1.6em;
-        font-size: 21px;
+        padding: 3.5em 12em 3em 12em;
+        color: #333;
+        h1 {
+            text-align: center;
+            font-size: 43px;
+            letter-spacing: 1px;
+            font-weight: 500;
+            line-height: 1em;
+        }
+        hr {
+            width: 50px;
+            border: none;
+            border-bottom: solid 2px #333;
+            margin: 0 auto;
+        }
+        p {
+            text-align: justify;
+            letter-spacing: 1.5px;
+            line-height: 1.5em;
+            margin-top: 1.6em;
+            font-size: 18px;
+        }
     }
 }
 
 .importness {
-    background: linear-gradient(-120deg, #a1c4fd 0%, #c2e9fb 100%);
+    font-family: '微軟正黑體';
+    background: linear-gradient(-120deg, #accbee 0%, #d2dff1 100%);
+
     .content {
-        height: 500px;
+        padding: 3em 2em;
+
+        .foreword {
+            padding: 1em 0;
+            margin-bottom: 3em;
+            h1 {
+                font-size: 36px;
+                letter-spacing: 1px;
+                font-weight: 300;
+                margin: 0;
+            }
+            p {
+                width: 70%;
+                text-align: justify;
+                letter-spacing: 1.2px;
+                line-height: 1.5em;
+            }
+            div {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                transform: rotateZ(-15deg);
+                width: 130px;
+                img {
+                    z-index: 1;
+                    opacity: .8;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 80%; height: 95%;
+                    top: 10px; left: 23px;
+                    border-radius: 15px;
+                    background-color: #6faaec;
+                    z-index: -1;
+                }
+            }
+        }
+
+        .left-list {
+            margin-bottom: 3em;
+            h2 {
+                font-weight: 500;
+                font-size: 18px;
+                letter-spacing: 1px;
+                padding-left: .3em;
+                margin-bottom: 1.3em;
+                left: 4px;
+                max-width: 70%;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    top: 0;
+                    right: 100%;
+                    border-left: solid 4px;
+                    border-color: rgba(#27e468, 0.73);
+                }
+            }
+
+            .list-contain {
+                width: 70%;
+                border-radius: 5px;
+                border: solid 1px #a8a8a8;
+                padding: .5em;
+                background-color: rgba(#f7f7f7, .5);
+                p {
+                    margin: 0;
+                    text-align: justify;
+                    letter-spacing: 1.2px;
+                    font-size: 16px;
+                    line-height: 1.6em;
+                }
+            }
+        }
+
+        .afterword {
+            padding-top: 1em;
+            h1 {
+                font-size: 30px;
+                text-align: center;
+            }
+            p {
+                width: calc(30px * 27);
+                margin: 0 auto;
+                text-align: justify;
+                font-size: 18px;
+                letter-spacing: 1px;
+                line-height: 1.6em;
+            }
+        }
     }
+}
+
+.sm-text {
+    text-align: center;
+    margin: 0;
+    line-height: 0;
+    letter-spacing: .8px;
+    margin-bottom: 2em;
+    font-size: calc(43px * 10 / 15);
 }
