@@ -19,7 +19,6 @@
         top: 50%;
         left: 50%;
         font-size: 36px;
-        font-family: '思源黑體';
         color: #f7f7f7;
         letter-spacing: 1px;
         text-align: center;
@@ -29,7 +28,6 @@
 }
 
 .about-us {
-    font-family: 微軟正黑體;
     background: linear-gradient(135deg, #f5f7fa 0%, #d0d9e7 100%);
     .content {
         padding: 3.5em 12em 3em 12em;
@@ -58,7 +56,6 @@
 }
 
 .importness {
-    font-family: '微軟正黑體';
     background: linear-gradient(-120deg, #accbee 0%, #d2dff1 100%);
 
     .content {
@@ -78,6 +75,7 @@
                 text-align: justify;
                 letter-spacing: 1.2px;
                 line-height: 1.5em;
+                font-weight: 300;
             }
             div {
                 position: absolute;
@@ -104,7 +102,7 @@
         .left-list {
             margin-bottom: 3em;
             h2 {
-                font-weight: 500;
+                font-weight: 400;
                 font-size: 18px;
                 letter-spacing: 1px;
                 padding-left: .3em;
@@ -133,6 +131,7 @@
                     text-align: justify;
                     letter-spacing: 1.2px;
                     font-size: 16px;
+                    font-weight: 300;
                     line-height: 1.6em;
                 }
             }
