@@ -35,7 +35,7 @@ module.exports = {
                     plugins: [],
                 }
             },{
-                test: /\.jpg|png|gif|svg$/,
+                test: /\.jpg|png|gif|svg|bmp$/,
                 use: [
                     'file-loader',
                     {
@@ -43,7 +43,7 @@ module.exports = {
                         options: {
                             mozjpeg: {
                                 progressive: true,
-                                quality: 10,
+                                quality: 80,
                             },
                             optipng: {
                                 enable: false,
