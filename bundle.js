@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "e6a84a2552bea3f10de1"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ffe4254a546cf08525fa"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -11448,7 +11448,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\n* {\n  position: relative;\n  box-sizing: border-box;\n  font-family: 'Roboto',微軟正黑體, sans-serif; }\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #f7f7f7; }\n\n#navbar {\n  background-color: white;\n  position: fixed;\n  height: 74px;\n  width: 100%;\n  box-shadow: 0px -3px 9px rgba(44, 47, 54, 0.3);\n  z-index: 10;\n  top: 0; }\n  #navbar .contain {\n    padding: 0 16px;\n    font-size: 0;\n    width: 65%;\n    margin: 0 auto; }\n    #navbar .contain .home {\n      display: inline-block;\n      font-size: 30px;\n      white-space: nowrap;\n      width: 30%;\n      text-decoration: none;\n      text-transform: uppercase;\n      color: #2c2f35; }\n    #navbar .contain .selector {\n      display: inline-block;\n      width: 70%; }\n      #navbar .contain .selector ul {\n        margin: 0;\n        padding: 0;\n        text-align: right; }\n        #navbar .contain .selector ul li {\n          display: inline-block;\n          font-size: 20px;\n          padding: 25px 10px;\n          text-transform: uppercase; }\n          #navbar .contain .selector ul li a {\n            text-decoration: none;\n            color: #2c2f35;\n            transition: .5s;\n            letter-spacing: 1px;\n            font-weight: 500; }\n            #navbar .contain .selector ul li a:hover {\n              color: #00EECA; }\n\n#app {\n  height: 100%; }\n\n.content {\n  margin: 0 auto;\n  width: 75%; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n* {\n  position: relative;\n  box-sizing: border-box;\n  font-family: 微軟正黑體; }\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #f7f7f7; }\n\n#navbar {\n  background-color: white;\n  position: fixed;\n  height: 74px;\n  width: 100%;\n  box-shadow: 0px -3px 9px rgba(44, 47, 54, 0.3);\n  z-index: 10;\n  top: 0; }\n  #navbar .contain {\n    padding: 0 16px;\n    font-size: 0;\n    width: 65%;\n    margin: 0 auto; }\n    #navbar .contain .home {\n      display: inline-block;\n      font-size: 30px;\n      white-space: nowrap;\n      width: 30%;\n      text-decoration: none;\n      text-transform: uppercase;\n      color: #2c2f35; }\n    #navbar .contain .selector {\n      display: inline-block;\n      width: 70%; }\n      #navbar .contain .selector ul {\n        margin: 0;\n        padding: 0;\n        text-align: right; }\n        #navbar .contain .selector ul li {\n          display: inline-block;\n          font-size: 20px;\n          padding: 25px 10px;\n          text-transform: uppercase; }\n          #navbar .contain .selector ul li a {\n            text-decoration: none;\n            color: #2c2f35;\n            transition: .5s;\n            letter-spacing: 1px;\n            font-weight: 500; }\n            #navbar .contain .selector ul li a:hover {\n              color: #00EECA; }\n\n#app {\n  height: 100%; }\n\n.content {\n  margin: 0 auto;\n  width: 75%; }\n", ""]);
 
 // exports
 
