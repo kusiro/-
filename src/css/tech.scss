@@ -1,0 +1,50 @@
+#tech {
+    margin-top: 74px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #d0d9e7 100%);
+    .content {
+        padding-top: 3em;
+        text-align: center;
+
+        .bord-contain {
+            margin: 100px 0;
+            .sm-bord {
+                display: inline-block;
+                width: calc(50% - 60px);
+                margin: 0 15px;
+                .buttom {
+                    display: inline-block;
+                    border: solid 2px;
+                    padding: 20px 40px;
+                    font-size: 42px;
+                }
+                p {
+                    margin: 2em 0;
+                    text-align: justify;
+                    letter-spacing: 1.6px;
+                    line-height: 1.6em;
+                    padding: 0 1em;
+                    min-width: 18em;
+                }
+            }
+        }
+
+    }
+
+    .about-us {
+        background: linear-gradient(-120deg, #accbee 0%, #d2dff1 100%);
+
+        .content {
+            padding-bottom: 3em;
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                width: 60%;
+                margin: 2em auto 0 auto;
+                text-align: justify;
+                letter-spacing: 1.6px;
+                line-height: 1.6em;
+            }
+        }
+    }
+}
