@@ -1,6 +1,40 @@
-#Pormote {
+#Promote {
     margin-top: 74px;
-    h1 {
-        font-size: 34px;
+    background: linear-gradient(-120deg, #accbee 0%, #d2dff1 100%);
+    .content {
+        padding: 1em 8em;
+        height: 100%;
+        h1 {
+            font-size: 34px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: #333;
+        }
+        .bord {
+            width: 100%;
+            background-color: rgba(247, 247, 247, 0.7);
+            border: solid 1px rgba(#000000, 0.3);
+            padding: 2em 3em;
+            box-shadow: 5px 5px 40px -15px #333;
+
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    letter-spacing: 1.2px;
+                    font-size: 18px;
+                    line-height: 2.4em;
+                    text-align: justify;
+                    list-style-type: circle;
+
+                }
+            }
+            p {
+                letter-spacing: 1.2px;
+                font-size: 18px;
+                line-height: 1.8em;
+                text-align: justify;
+            }
+        }
     }
 }

@@ -1,13 +1,13 @@
 #Team {
-    top: 74px;
-
+    margin-top: 74px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #d0d9e7 100%);
     h1 {
         text-align: center;
         font-size: 43px;
         letter-spacing: 1px;
         font-weight: 500;
-        line-height: 1em;
-        margin-top: 2em;
+        line-height: 3em;
+        margin: 0;
     }
 
 
@@ -42,6 +42,7 @@
             }
             hr {
                 width: 80%;
+                border-bottom: none;
             }
         }
     }
