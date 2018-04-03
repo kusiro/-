@@ -3,25 +3,38 @@
     <head>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>食安聯盟</title>
     </head>
     <body>
-        <nav id="navbar">
-            <div class="contain">
-                <a class="home" href="#">食安聯盟</a>
-                <div class="selector">
-                    <ul>
-                        <li><a href="#/tech">Tech</a></li>
-                        <li><a href="#/equipment">Equipment</a></li>
-                        <li><a href="#/promote">Promote</a></li>
-                        <li><a href="#/team">Team</a></li>
-                        <li><a href="#/contact">Contact</a></li>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        細胞與動物實驗平台
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#/tech">核心技術</a></li>
+                        <li><a href="#/equipment">實驗設備</a></li>
+                        <li><a href="#/promote">聯盟推廣</a></li>
+                        <li><a href="#/team">專業團隊</a></li>
+                        <li><a href="#/contact">與我聯繫</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div id="app"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="bundle.js" charset="utf-8"></script>
     </body>
 </html>
