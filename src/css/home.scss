@@ -31,7 +31,7 @@
     .about-us {
         background: linear-gradient(135deg, #f5f7fa 0%, #d0d9e7 100%);
         .content {
-            padding: 3.5em 3em 3em 3em;
+            padding: 5em 3em 5em 3em;
             color: #333;
             h1 {
                 text-align: center;
@@ -39,6 +39,8 @@
                 letter-spacing: 1px;
                 font-weight: 500;
                 line-height: 1em;
+                margin-top: 0;
+                margin-bottom: .5em;
             }
             hr {
                 width: 50px;
@@ -89,13 +91,15 @@
                     letter-spacing: 1px;
                     font-weight: 300;
                     margin: 0;
+                    font-weight: 700;
                 }
                 p {
                     width: 70%;
                     text-align: justify;
                     letter-spacing: 1.2px;
                     line-height: 1.5em;
-                    font-weight: 300;
+                    font-weight: 500;
+                    font-size: 20px;
                 }
                 div {
                     position: absolute;
@@ -119,7 +123,7 @@
             .left-list {
                 margin-bottom: 3em;
                 h2 {
-                    font-weight: 400;
+                    font-weight: 500;
                     font-size: 18px;
                     letter-spacing: 1px;
                     padding-left: .3em;
