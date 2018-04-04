@@ -1,9 +1,17 @@
 #contact {
     margin-top: 64px;
 
-    .content {
-        padding-top: 2em;
+    #map {
+        margin: 3em auto 1em auto;
+        .ol-overlaycontainer-stopevent {
+            position: initial;
+            top: 0;
+        }
+    }
 
+    .content {
+        width: 800px;
+        margin: 0 auto;
         .single-img {
             width: 200px;
             margin: 0 auto;
@@ -22,15 +30,17 @@
         }
 
         .bord {
-            text-align: center;
+            margin-bottom: 60px;
             letter-spacing: 1.6px;
-            hr {
-                width: 50px;
-                border-bottom: none;
-            }
+            padding: 0;
             h3 {
-                margin-top: 1.2em;
-                margin-bottom: .6em;
+                margin-top: 1.6em;
+                margin-bottom: .3em;
+                letter-spacing: 1.6px;
+            }
+            span {
+                font-size: 18px;
+                letter-spacing: 1.6px;
             }
         }
     }

@@ -7,6 +7,7 @@ import contact_style from './css/contact.scss';
 import tech_style from './css/tech.scss';
 import html from '../index.html';
 import Router from './router.js';
+import Map from './javascript/osm.js';
 
 $(() => {
     new Router();
