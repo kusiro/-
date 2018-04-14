@@ -6,33 +6,55 @@
     </div>
     <div class="content">
         <!-- <div class="single-img">
-            <img src="../image/letter.svg">
-        </div> -->
-        <div class="bord col-md-6">
-            <h3>楊繼江博士</h3>
-            <h4>國立台東大學綠色與資訊學士學位學程</h4>
-            <h3>電話</h3>
-            <span>089-517808/089-318855#6712</span>
-            <h3>信箱</h3>
-            <span>cycang@nttu.edu.tw</span>
-        </div>
-        <div class="bord col-md-6">
-            <h3>地點</h3>
-            <span>95092 台東市大學路二段369號</span>
-            <h3>傳真</h3>
-            <span>08-9517508</span>
-        </div>
+        <img src="../image/letter.svg">
+    </div> -->
+    <div class="bord col-md-6">
+        <h3>楊繼江博士</h3>
+        <h4>國立台東大學綠色與資訊學士學位學程</h4>
+        <h3>電話</h3>
+        <span>089-517808/089-318855#6712</span>
+        <h3>信箱</h3>
+        <span>cycang@nttu.edu.tw</span>
     </div>
+    <div class="bord col-md-6">
+        <h3>地點</h3>
+        <span>95092 台東市大學路二段369號</span>
+        <h3>傳真</h3>
+        <span>08-9517508</span>
+    </div>
+</div>
 </div>
 <script type="text/javascript">
 
+// var iconFeature = new ol.Feature({
+//     geometry: new ol.geom.Point(ol.proj.fromLonLat([121.067899, 22.736601])),
+// });
+//
+// var iconStyle = new ol.style.Style({
+//     anchor: [0.5, 46],
+//     anchorXUnits: 'fraction',
+//     anchorYUnits: 'pixels',
+//     image: new ol.style.Icon({
+//         src: 'src/image/placeholder.png',
+//     }),
+//
+// });
+//
+// iconFeature.setStyle(iconStyle);
 
+// var vectorSource = new ol.source.Vector({
+//     features: [iconFeature]
+// });
+//
+// var vectorLayer = new ol.layer.Vector({
+//     source: vectorSource
+// });
 
 var map = new ol.CanvasMap({
     layers: [
-      new ol.layer.Tile({
-        source: new ol.source.OSM()
-      })
+        new ol.layer.Tile({
+            source: new ol.source.OSM()
+        })
     ],
     target: 'map',
     controls: ol.control.defaults({
@@ -42,6 +64,7 @@ var map = new ol.CanvasMap({
     }),
     view: new ol.View({
         center: ol.proj.fromLonLat([121.067899, 22.736601]),
+        // center: [0, 0],
         zoom: 15,
         enableRotation: false,
         maxZoom: 15,

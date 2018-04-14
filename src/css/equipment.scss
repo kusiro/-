@@ -1,6 +1,7 @@
 #equipment {
     margin-top: 64px;
     background: linear-gradient(135deg, #f5f7fa 0%, #d0d9e7 100%);
+    overflow: hidden;
     .bg-text-emp {
         padding: 4em 0;
         background-color: #3eccb5;
@@ -8,28 +9,31 @@
             letter-spacing: 1px;
             text-align: center;
             margin: 0;
-            line-height: 0;
             font-weight: 300;
             color: #333;
         }
     }
     .content {
         padding-top: 1em;
-
+        min-width: 320px;
         .detail {
             margin: 4em 0;
-            display: flex;
-            justify-content: center;
-            h2 {
-                margin: 0;
-                font-size: 28px;
-                letter-spacing: 1.6px;
-            }
-            ul {
-                margin: 0;
+            min-width: 320px;
+            width: 100%;
+
+            .full-img {
+                overflow: hidden;
                 padding: 0;
-                width: 40%;
-                min-width: 300px;
+                img {
+                    width: calc(50% - 4px);
+                    vertical-align: top;
+                    margin: 1px;
+                    padding: 0;
+                }
+            }
+
+            ul {
+                padding: 0 10px;
                 hr {
                     border-bottom: none;
                     width: 50%;
@@ -45,22 +49,13 @@
                     margin: 0.8em 0;
                     text-align: justify;
                 }
-            }
-
-            .full-img {
-                width: 60%;
-                margin-right: 50px;
-                display: flex;
-                flex-wrap: wrap;
-                overflow: hidden;
-                justify-content: center;
-                align-items: flex-start;
-                img {
-                    width: calc(50% - 20px);
-                    min-width: 300px;
-                    margin: 5px;
+                h2 {
+                    margin: 0;
+                    font-size: 28px;
+                    letter-spacing: 1.6px;
                 }
             }
+
         }
 
         h3 {
@@ -70,4 +65,19 @@
 
         }
     }
+
+    @media (max-width: 750px){
+        .detail {
+            ul {
+                h3 {
+                    font-size: 18px !important
+                }
+                li {
+                    margin: 12px 0 !important;
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+
 }
