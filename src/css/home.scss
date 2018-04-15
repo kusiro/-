@@ -83,6 +83,7 @@
     .news {
         background-image: url('../image/Wood-background-HD-pictures-7-41023_COLOR.png');
         background-position: bottom;
+        text-align: center;
         &:after {
             content: '';
             position: absolute;
@@ -110,9 +111,12 @@
             box-shadow: 5px 5px 40px -5px #212121;
             ul {
                 margin-bottom: 0;
+                list-style: circle;
+                padding: 0;
+                list-style-position: inside;
                 li {
                     font-size: 16px;
-                    line-height: 1.6em;
+                    line-height: 2.6em;
                     letter-spacing: 1.2px;
                     a {
                         color: #333;
